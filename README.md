@@ -21,6 +21,13 @@ The medical field demands precision in question-answering systems, and this repo
 
 ## Pipeline
 
+<!-- Import image -->
+<div>
+    <a href="images/llama_qa_diagram.png">
+        <img src="static/imgs/MedLLama.drawio.png" alt="pipeline" width="900"/>
+    </a>
+</div>
+
 ### Data
 The 'pubmed' dataset serves as a vast reservoir of medical knowledge. Given the limitations of model window sizes, a chunking strategy breaks down the large text datasets into manageable portions, enabling the model to process and understand contextual information effectively.
 
